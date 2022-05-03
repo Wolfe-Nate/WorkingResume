@@ -1,0 +1,66 @@
+/* Html Element */
+* {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --blue: aquamarine;
+    --dark: #33393f;
+    --light: #e866ec;
+}
+
+::selection{
+    background-color: var(--blue);
+    color: var(--dark);
+}
+header {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--blue);
+        color: var(--dark);
+        margin-bottom: 1rem;
+}
+nav a{
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    padding: .3rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: .3rem;
+    
+}
+h1 {
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+    color: var(--blue);
+    background-color: var(--dark);
+    margin-bottom: 1rem;
+}
+h3{
+    background-color: var(--blue);
+    color: var(--dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for small screens */
+@media screen and (min-width: 768px) {
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+}
