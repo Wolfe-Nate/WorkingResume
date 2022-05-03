@@ -19,7 +19,6 @@ header {
         justify-content: space-between;
         background-color: var(--blue);
         color: var(--dark);
-        margin-bottom: 1rem;
 }
 nav a{
     display: flex;
@@ -31,7 +30,11 @@ nav ul {
     display: flex;
     list-style: none;
     padding: .3rem;
+    color: var(--dark);
     
+}
+nav ul:hover{
+
 }
 h1 {
     font-size: 3rem;
@@ -40,18 +43,43 @@ h2{
     font-size: 2rem;
     color: var(--blue);
     background-color: var(--dark);
-    margin-bottom: 1rem;
 }
 h3{
     background-color: var(--blue);
     color: var(--dark);
+    text-align: center;
+}
+article p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
 }
 
+.boxes{
+    
+}
 
+.card{
+width: 50%;
+border-style: double;
+}
 
+.yukon{
+    display:flex;
+    justify-content: center;
+    background-color: var(--dark);
+    border: #33393f;
+    border-style: groove;
+}
 
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width:  100%;
+}
 
-
+.card-header{
+    text-align: center;
+}
 
 
 
