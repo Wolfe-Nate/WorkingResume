@@ -25,17 +25,22 @@ nav a{
     justify-content: right;
     align-content: center;
     padding: .3rem;
+    background-color:var(--dark) ;
+    color: var(--blue);
+    text-decoration: none;
 }
 nav ul {
     display: flex;
     list-style: none;
     padding: .3rem;
+}
+.bar:hover{
+    cursor: crosshair;
+    transition: 0.7s;
     color: var(--dark);
-    
+    background-color: var(--blue);
 }
-nav ul:hover{
 
-}
 h1 {
     font-size: 3rem;
 }
@@ -64,11 +69,16 @@ border-style: double;
 }
 
 .yukon{
-    display:flex;
-    justify-content: center;
     background-color: var(--dark);
     border: #33393f;
     border-style: groove;
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+}
+.yukon img{
+    max-width: 100%;
+    height: auto;
 }
 
 .wrapper{
@@ -81,7 +91,9 @@ border-style: double;
     text-align: center;
 }
 
-
+#Contactme {
+    background-image: url('../challengeWeek2/assets/thumbs.jpeg')
+}
 
 
 
